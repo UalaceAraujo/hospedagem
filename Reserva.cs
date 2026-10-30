@@ -1,7 +1,7 @@
 public class Reserva
 {
     public List<Pessoa> Hospedes { get; set; } = new List<Pessoa>();
-    public Suite Suite { get; set; }
+    public Suite Suite { get; set; } = null!;
     public int DiasReservados { get; set; }
 
     public Reserva() { }

@@ -9,7 +9,7 @@ public class Suite
         ValorDiaria = valorDiaria;
     }
 
-    public string TipoSuite { get; set; }
+    public string TipoSuite { get; set; } = string.Empty;
     public int Capacidade { get; set; }
     public decimal ValorDiaria { get; set; }
 }
